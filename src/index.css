@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+#about{
+
+  direction: ltr;
+}
+
+:root{
+  --color-bg:#1f1f38;
+  --color-bg-variant:#2c2c6c;
+  --color-bg-praimry:#4db5ff;
+  --color-primary-varinat:rgba(77,181,255,0.6)
+  --color-whaite:#fff;
+  
+}
+.myskils{
+  direction: ltr;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+
+  display: none;
+}
+body{
+  font-family: "poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  direction: rtl;
+}
+/* generas style */
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-weight: 500;
+}
+.pRgaf{
+
+  direction: rtl;
+}
+h1{
+  font-size: 2.5rem;
+}
+a{
+color: var(--color-bg-praimry);
+transition: 400ms ease;
+ 
+}
+.btn{
+width:max-content ;
+display: inline-block;
+color: var(--color-bg-praimry);
+padding: 0.75rem 1.2rem;
+border-radius: 0.4rem;
+border: 1px solid var(--color-bg-praimry);
+
+}
+.btn:hover{
+background:#fff;
+   color: var(--color-bg);
+   border-color: transparent;
+}
+.btn-praimry{
+background: var(--color-bg-praimry);
+color: var(--color-bg);
+
+
+}
+img{
+
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.header::after{
+cursor: '';
+width: 1px;
+height: 2rem;
+background: var(--color-bg-praimry);
+
+}
+.me >img{
+
+  background: linear-gradient( var );
+  position: relative;
+  width: 25rem;
+  height: 33rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 7rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.nav{
+
+ background: rgba(0, 0, 0, 0.3);
+ width: max-content;
+ padding: 0.7rem 1.7rem;
+ z-index: 2;
+  position: fixed;
+  transform: translateX(-50%);
+  top: 90%;
+  left: 50%;
+gap: 2rem;
+border-radius: 3rem;
+backdrop-filter: blur(15px);
+
+}
+.nav a{
+
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: lightgray;
+  font-size: 1.1rem;
+}
+nav a:hover{
+
+background: rgba(0, 0, 0, 0.3);
+
+}
+.nav a:active{
+
+  background: var(--color-bg);
+  color: #fff;
+}
+.container{
+
+  display: grid;
+   grid-template-columns: 35% 50%;
+   gap: 15%;
+}
+.about me{
+
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, blue,
+  transparent
+  
+  );
+  display: grid;
+  place-items: center;
+}
+.abut img{
+
+  border-radius: 1rem;
+  overflow: auto;
+  transform:rotate(10deg);
+  transition: 400ms ease;
+}
+.abut img:hover{
+
+  transform:rotate(0deg)
+}
+.about-cards{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+.about-cards .card:hover{
+
+  background: var(--color-bg);
+  cursor: pointer;
+}
+.frontend{
+
+transition: 4;
+
+}
+.frontend:hover{
+background: var(--color-primary-varinat);
+cursor: default ;
+
+}
+.services2{
+
+  background: var(--color-bg-variant);
+   color: coral;
+}
+.container1{
+display: grid;
+grid-template-columns: repeat(3,1fr) ;
+gap: 2.5rem;
+
+}
+.prtiofile-item{
+
+   background: var(--color-bg-variant);
+   padding: 1.3rem;
+   border-radius: 3rem;
+   border: 1px solid transparent;
+   transition: 400ms ease;
+}
+.prtiofile-item:hover{
+ border-color: var(--color-primary-varinat);
+ background: transparent;
+
+}
+.clinet-Avtar{
+
+  width: 4rem;
+   aspect-ratio: 1/1;
+   overflow: hidden;
+   border-radius: 50%;
+   margin: 0 auto  1rem;
+   border: 0.4rem solid  var(--color-bg-variant);
+}
+.testmminalartic{
+
+  background: aquamarine;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+}
