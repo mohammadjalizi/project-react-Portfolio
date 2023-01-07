@@ -12,7 +12,7 @@ function About() {
     <div data-aos="fade-down-right">
     <div id="about" className="   mt-8 h-[100vh] "  >
       <div className=" text-center  md:mt-24 ">  
-      <h5 className=" text-white ">Get to now</h5>
+   
       <h2 className="  text-2xl "> درباره من</h2>
       </div>
       <div className="container  grid grid-cols-1 md:grid-cols-2 px-28  py-10">
