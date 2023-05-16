@@ -7,7 +7,7 @@ function Footer() {
 <footer class="text-center lg:text-left  shadow-inherit  shadow-2xl border  bg-gray-50 text-gray-600">
   <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
     <div class="mr-12 hidden lg:block">
-      <span>در شبکه های اجتماعی با ما در ارتباط باشید:</span>
+      <span>درvvv شبکه های اجتماعی با ما در ارتباط باشید:</span>
     </div>
     <div class="flex justify-center">
       <a href="#!" class="mr-6 text-gray-600">
